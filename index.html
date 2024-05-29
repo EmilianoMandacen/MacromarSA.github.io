@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Macromar Sa, Insumos Medicos, Joaquin Requena 1263">
+    <meta name="description" content="Empresa Macromar Sa, Insumos Medicos" />
+    <meta name="author" content="Emiliano Mandacen - Emilianomandacen@gmail.com" />
+    <meta name="robots" content="index, follow" />
+    <link rel="icon" type="image/png" href="./assets/img/Macromar_2024.jpg" alt="Icono de la Web">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>Macromar S.A</title>
+</head>
+
+<a href="https://wa.me/59895939555?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n"
+    class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<!-- 
+    dropdown menu (-800px idioma)
+    secundario: Flecha "volver arriba"
+-->
+
+<body>
+    <header>
+        <div class="navBar">
+            <div class="tituloNav">
+                <h1>Macromar S.A</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li>
+                        <div class="imgNav">
+                            <img src="./assets/icons/iconTelefono.png" alt="Icono telefono">
+                        </div>
+                        <div class="textNav">
+                            <p>
+                                tel. 2401 0952 <br>
+                                tel. 2402 4288 <br>
+                                tel. 2402 4367
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="imgNav2">
+                            <img src="./assets/icons/iconMail.png" alt="Icono mail">
+                        </div>
+                        <div class="textNav2">
+                            <p>Macromar@macromar.com.uy
+                                <br>
+                                Info@macromar.com.uy
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="sub-NavBar2">
+            <ul class="dropdown-menu">
+                <li>
+                    <button class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+                        <img src="./assets/img/desplegar.png" alt="desplegar menú desplegable">
+                    </button>
+                    <ul class="drop">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#sobreNosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                        <li class="sub"><a href="#">Idioma ▾</a>
+                            <ul class="drop2">
+                                <li><a href="index.html">Español</a></li>
+                                <li><a href="./english/index_en.html">English</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="sub-NavBar">
+            <ul>
+                <li id="indice">
+                    <a href="index.html">
+                        <button>Inicio</button>
+                    </a>
+                </li>
+                <li id="indice">
+                    <a href="#sobreNosotros">
+                        <button>Nosotros</button>
+                    </a>
+                </li>
+                <li id="indice">
+                    <a href="#productos">
+                        <button>Productos</button>
+                    </a>
+                </li>
+                <li id="indice">
+                    <a href="#contacto">
+                        <button>Contacto</button>
+                    </a>
+                </li>
+                <li class="indice2">
+                    <button><a href="#">Idioma▾</a></button>
+                    <ul class="drop">
+                        <li><a href="./index.html">Español</a></li>
+                        <li><a href="./english/index_en.html">Ingles</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobreNosotros">
+            <div id="btn-prev">
+                <input class="btn-prev" type="button" value="&#60;">
+            </div>
+            <div class="contenedor-Nosotros">
+                <!-- slider -->
+
+                <div class="slider" id="slider">
+                    <div class="slide" style="background-image: url('#');">
+                        <div class="content">
+                            <h4>Nos dedicamos</h4>
+                            <p>A la importación y distribución de insumos médicos y
+                                hospitalarios. </p>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('#');">
+                        <div class="content">
+                            <h4>Nuestro objetivo</h4>
+                            <p>Brindar productos de la mejor calidad a nuestros clientes. </p>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('#');">
+                        <div class="content">
+                            <h4>LLamenos</h4>
+                            <p>Si desea más información, no dude en contactarnos. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="btn-next">
+                <input class="btn-next" type="button" value="&#62;">
+            </div>
+        </section>
+
+        <section id="productos">
+            <h1>Productos</h1>
+    
+            <select name="" id="selctProductos">
+                <option value="producto1" selected>Agujas y Jeringas</option>
+                <option value="producto2">Alcohol y Desinfectantes</option>
+                <option value="producto3">Algodón y Gasa</option>
+                <option value="producto4">Aparatos y Equipos Médicos</option>
+                <option value="producto5">Material Desechable</option>
+                <option value="producto6">Instrumental Médico</option>
+                <option value="producto7">Otros Materiales y Suministros</option>
+                <option value="producto8">Equipos de Infusión y Transfusión</option>
+                </option>
+            </select>
+            <!-- Agujas y Jeringas -->
+            <div class="grupo1">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>AGUJA PARA JERINGA CARPULE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>AGUJAS DIFERENTES MEDIDAS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>JERINGAS VARIAS MEDIDAS 1/3/10/20/50cc - 60CC TOOMEY</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Alcohol y Desinfectantes -->
+            <div class="grupo2">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ALCOHOL 1 LT RECTIFICADO</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ALCOHOL 1LT EUCALIPTADO</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ALCOHOL GEL</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Algodón y Gasa -->
+            <div class="grupo3">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ALGODÓN ROLLOS DE 2K - 4K</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MANTAS DE GASA + GASA CORTADA VARIAS MEDIDAS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>VENDA DE GASA VARIAS MEDIDAS</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Aparatos y Equipos Médicos -->
+            <div class="grupo4">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>APARATO PRESION ANEROIDE - DIGITAL - BRAZALETE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ESTETOSCOPIO</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TERMOMETRO DIGITAL PUNTA RIGIDA O FLEXIBLE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TERMOMETRO INFRARROJO A DISTANCIA</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MAQUINAS SELLADORAS DE ESTERIPAPEL</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Material Desechable -->
+            <div class="grupo5">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CASACA DESCARTABLE TNT</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CUBREZAPATOS CON ELASTICO TNT - NYLON</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>DEDILES</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>GORROS BOINAS (Blancos . Celestes)</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MANOPLAS NYLON - BOLSA X 100 UN</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MASCARILLA KN95</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MASCARILLA N95</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>PANTALON DESC. COLOR AZUL</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TAPABOCAS CON ELASTICO BLANCO/CELESTE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TUNICA DESCARTABLE TNT 25GR - 40GR</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TUNICA IMPERMEABLE 40GR</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Instrumental Médico -->
+            <div class="grupo6">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CATETER (SMITHS) - (PLUS)</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CHATA ACERO INOXIDABLE-PLASTICA</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MANGO PARA HOJA DE BISTURI</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MARIPOSAS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>MALLA TUBULAR ELASTICA</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>LLAVES DE 3 VIAS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>HOJAS BISTURI CAJA X 100 Nº 10.11.12.15.24.23.22</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>ESPECULOS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>RIÑONES DESCARTABLES 26CM</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Otros Materiales y Suministros -->
+            <div class="grupo7">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>BALDE DESCARTEX PLASTICO</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>BOLSA ROJA DESCARTEX</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CAMPO COMUN 0.50 X 0.50</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>CAMPO COMUN 1X1</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>FRASCOS DE ORINA TAPA ROSCA</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>LEUCO/ MICROPORE/ TRANSPORE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>PAPEL CAMILLA 40CM o 50CM</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>PAPEL SABANILLA BLANCA ELITE</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>PRECINTOS PLASTICOS X100</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>PROTECTOR DE BARBA CON ELASTICO</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>VENDA COBAN VARIAS MEDIDAS</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>TORNIQUETE X 50 UN.</p>
+                        </button>
+                    </a>
+                </div>
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>VIOLINES PVC - CON TAPA</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- Equipos de Infusión y Transfusión -->
+            <div class="grupo8">
+                <div class="cardProducto">
+                    <a href="#">
+                        <button>
+                            <img src="./assets/img/producto_img.png" alt="Imagen producto">
+                            <p>EQUIPO INFUSOR MACROGOTERO S/A</p>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="contenedor-Contacto">
+                <div class="cardContacto">
+                    <form id="form" class="form" action="https://formspree.io/f/xeqywdow" method="post">  
+                        <h2 class="tag"><span>Contacto</span></h2>
+                        <label for="Nombre">Nombre<span>*</span></label>
+                        <input name="Nombre" required type="text" id="name" placeholder="Nombre">
+                        <label for="Email">Correo electrónico <span>*</span></label>
+                        <input name="Email" type="text" id="email" required placeholder="TuMail@gmail.com">
+                        <label for="Telefono">Número de Teléfono<span>*</span></label>
+                        <input name="Telefono" type="text" id="telefono" required placeholder="000-000-000" maxlength="11">
+                        <script>
+                            document.getElementById('telefono').addEventListener('input', function (e) {
+                                var value = e.target.value.replace(/[^\dA-Z]/g, '');
+                                if (value.length % 3 === 0 && value.length !== 0) {
+                                    e.target.value = value.replace(/(.{3})/g, '$1-').slice(0, -1);
+                                } else {
+                                    e.target.value = value.replace(/(.{3})/g, '$1-');
+                                }
+                            });
+                        </script>
+                        <label for="Mensaje">Mensaje</label>
+                        <textarea id="message" name="Mensaje" id="" cols="30" rows="10"
+                            placeholder="Texto aquÍ..."></textarea>
+                        <button type="submit" class="btnEnviar">Enviar mensaje</button>
+                    </form>
+                </div>
+
+
+                <div class="cardDireccion">
+                    <h2 class="tag"><span class="tag">Dirección</span></h2>
+                    <p>Dr. Joaquín Requena 1263, <br>
+                        11200 Montevideo, <br>
+                        Montevideo Uruguay.
+                    </p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1636.0398014570235!2d-56.1697817!3d-34.9044518!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f81ae15c7e091%3A0xf8eb8029c2174cfa!2sDr.%20Joaqu%C3%ADn%20Requena%201263%2C%2011200%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses-419!2suy!4v1715641950396!5m2!1ses-419!2suy"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="informacion">
+            <div class="contenedor-info">
+                <hr style="width: 70%; height: 0%;">
+                <div class="info">
+
+                    <h2>Información</h2>
+                    <ul class="infoUl">
+                        <li class="infoLI">
+                            <div class="textInfo">
+                                <h3>Telefonos de contacto:</h3>
+                                <p>
+                                <ul>
+                                    <li>tel. 2401 0952</li>
+                                    <li>tel. 2402 4288</li>
+                                    <li>tel. 2402 4367</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="infoLI">
+                            <div class="textInfo2">
+                                <h3>Mail:</h3>
+                                <p>
+                                <ul>
+                                    <li>Macromar@macromar.com.uy</li>
+                                    <li>Info@macromar.com.uy</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <hr style="width: 70%; margin-top: 0vh;">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Seccion footer -->
+        <section id="footer">
+            <div class="footer">
+                <div class="logoFooter">
+                    <img src="./assets/img/Macromar.jpg" alt="Logo de MacromarSA">
+                </div>
+                <div>
+                    <div class="redes">
+                        <a href="https://www.facebook.com/macromarsa.macromar/?locale=es_LA" target="_blank">
+                            <img class="iconX" src="./assets/icons/fc.png" alt="Facebook link">
+                        </a>
+                        <a href="https://www.instagram.com/macromar2023/" target="_blank">
+                            <img class="iconF" src="./assets/icons/ig.png" alt="Instagram link">
+                        </a>
+                        <a href="https://wa.me/59895939555?text=Hola%2C%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n"
+                            target="_blank">
+                            <img class="iconY" src="./assets/icons/wpp.png" alt="whatsapp link">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>© 2024 Macromar SA Uruguay.</p>
+        </section>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
