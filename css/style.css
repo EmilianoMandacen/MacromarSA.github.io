@@ -237,7 +237,6 @@ header {
 }
 
 /* Productos */
-/* Productos */
 
 #productos {
     display: flex;
@@ -248,6 +247,9 @@ header {
 }
 
 #selctProductos {
+    font-size: 1.05rem;
+    border-radius: 20px;
+    padding-left: 10px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
