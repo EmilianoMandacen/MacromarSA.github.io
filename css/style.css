@@ -689,7 +689,7 @@ footer p {
     }
 
     .slider {
-        width: 70vw;
+        width: 90vw;
         height: 70vh;
     }
     
@@ -794,6 +794,7 @@ footer p {
     /* Dropdown styles */
     
     .drop2 {
+        margin-left: 16vw;
         width: 100%;
         background: #DF363C;
         position: absolute;
