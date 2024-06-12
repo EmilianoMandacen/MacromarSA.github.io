@@ -108,38 +108,32 @@ header {
 }
 
 .sub-NavBar li {
-    margin-top: 0;
     font-size: 0.90rem;
     color: #ffffff;
     float: none;
-    width: 10%;
     position: relative;
 }
 
 .sub-NavBar ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    display: block;
-}
-
-.sub-NavBar ul li button {
+    display: flex;
     background-color: #DF363C;
     color: #ffffff;
     font-size: 1rem;
     height: 6vh;
-    width: 100%;
+    width: 15vw;
     border: none;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
 
-.sub-NavBar ul li button:hover {
+.sub-NavBar ul li a:hover {
     background-color: #9D2126;
 }
 
 /* Dropdown styles */
 
 .sub-NavBar ul li .drop {
-    width: 100%;
     background: #DF363C;
     position: absolute;
     z-index: 999;
@@ -152,12 +146,12 @@ header {
     display: block;
 }
 
-.sub-NavBar ul li .drop li {
+.drop li {
     display: block;
     width: 100%;
 }
 
-.sub-NavBar ul li .drop li a {
+.drop li a {
     padding: 10px;
     background: #DF363C;
     color: #FFF;
@@ -165,7 +159,7 @@ header {
     text-align: left;
 }
 
-.sub-NavBar ul li .drop li a:hover {
+.drop li a:hover {
     background: #9D2126;
 }
 
@@ -255,11 +249,6 @@ header {
     align-items: center;
 }
 
-#productos h1 {
-    color: #000000;
-    font-size: 2.5rem;
-}
-
 .grupo1, .grupo2, .grupo3, .grupo4, .grupo5, .grupo6, .grupo7, .grupo8{ 
     display: none;
     margin-top: 6vh;
@@ -277,20 +266,16 @@ header {
 
 
 .cardProducto  {
+    display: flex;
     width: 250px;
     height: 350px;
-}
-
-
-.cardProducto button {
+    background-color: #828282;
     border: 1px solid #000000;
     border-radius: 10px;
-    background-color: #828282;
-    text-decoration: none;
-    border: none;
-    height: 100%;
-    width: 100%;
     transition: transform 0.5s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .cardProducto p {
@@ -299,22 +284,20 @@ header {
 }
 
 .cardProducto button,
-.cardProducto a,
-.cardProducto {
+.cardProducto a{
     color: #000000;
     text-decoration: none;
 }
 
-
-.cardProducto button:hover {
-    transform: scale(1.05);
-}
-
 .cardProducto img {
     width: 100%;
-    height: 14vh;
 }
 
+
+
+.cardProducto:hover {
+    transform: scale(1.05);
+}
 
 /* Contacto */
 
@@ -479,7 +462,6 @@ input[type="number"] {
 }
 
 .infoLI {
-
     list-style-type: none;
     font-size: 0.85rem;
     color: #000000;
@@ -491,6 +473,10 @@ input[type="number"] {
 
 .textInfo2 {
     float: right;
+}
+
+.textInfo2, .textInfo {
+    margin-bottom: 2vh;
 }
 
 /* Footer */
@@ -531,7 +517,6 @@ footer p {
 .footer .logoFooter {
     margin-top: 1vh;
     display: flex;
-    align-items: left;
 }
 
 
@@ -581,6 +566,43 @@ footer p {
     margin-top: 10px;
 }
 
+/* Pestana nosotros */
+#nosotros2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6vh;
+    width: 100%;
+}
+
+#nosotros2 h1{
+    color: #9D2126;
+    font-size: 2.2rem;
+}
+
+.pestanaNosotros{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.cardNosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    font-size: 1.2rem;
+}
+
+
+
+
 /* Media query */
 
 @media (max-width: 700px) {
@@ -623,7 +645,6 @@ footer p {
         font-size: 0.80rem;
     }
 
-
     #sobreNosotros {
         margin-left: 0vw;
     }
@@ -639,13 +660,6 @@ footer p {
         margin-top: 50vh;
     }
 
-    .textInfo {
-        float: center;
-    }
-
-    .textInfo2 {
-        float: center;
-    }
 
     .contenedor-Contacto {
         display: flex;
@@ -692,19 +706,6 @@ footer p {
         align-content: center;
         justify-content: center;
         justify-items: center;
-    }
-
-    .cardProducto {
-        color: #000000;
-        border: 1px solid #000000;
-        background-color: #ffffff;
-        height: 25vh;
-        border-radius: 10px;
-    }
-
-    .cardProducto img {
-        width: 100%;
-        height: 18vh;
     }
 
     .sub-NavBar {
