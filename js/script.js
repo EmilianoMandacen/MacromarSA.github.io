@@ -73,15 +73,17 @@ function ocultaGrupos() {
 
 
 document.querySelector("#slider").addEventListener("click", nosotros);
+
 function nosotros() {
     //que segun la url actual te lleve a nosotros o osotrosEn
     let url = window.location.href;
     if (url.includes("index_en.html")) {
         window.location.href = "../english/nosotrosEn.html";
-    } else {
+    } else if (url.includes("index.html")) {
         window.location.href = "../nosotros.html";
     }
 
 }
+
 
 
