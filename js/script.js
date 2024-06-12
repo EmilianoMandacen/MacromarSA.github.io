@@ -74,6 +74,7 @@ function ocultaGrupos() {
 
 document.querySelector("#slider").addEventListener("click", nosotros);
 
+
 function nosotros() {
     //que segun la url actual te lleve a nosotros o osotrosEn
     let url = window.location.href;
