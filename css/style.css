@@ -411,7 +411,7 @@ input[type="number"] {
     display: flex;
     background-color: #ffffff;
     margin-top: 10vh;
-    width: 70%;
+    margin-bottom: 10vh;
 }
 
 .contenedor-info h2 {
